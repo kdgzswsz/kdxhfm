@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <!--
+    [SECTION ANNOTATION]
+    [START]
+        [VERSION]
+            RELEASE 001
+    [END]
+    -->
+    <meta charset="utf-8">
+    <!-- 引入 FontAwesome -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- 引入 Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <!-- 引入 Foundation -->
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <!-- 移动优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: rgb(10, 10, 10);
+            color: white;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        .header {
+            background-color: rgb(56, 54, 54);
+            text-align: center;
+            padding: 15px;
+            border-bottom: 3px solid #ff4d4d;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .column {
+            float: left;
+            width: 33.3%;
+            padding: 15px;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .panel {
+            background-color: rgb(56, 54, 54);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .panel h3 {
+            color: #ff4d4d;
+        }
+        .progress-bar {
+            background-color: #ff4d4d;
+        }
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="header">
+        <h2>老w的主页</h2>
+    </div>
+    
+    <!-- 三列布局 -->
+    <div class="row">
+        <div class="column">
+            <div class="panel">
+                <h3>简介</h3>
+                <p>？</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="panel">
+                <h3>个性</h3>
+                <p>？</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="panel">
+                <h3>其他</h3>
+                <p>？</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 我擅长的 -->
+    <h2 style="text-align: center; margin-top: 40px;">我擅长的</h2>
+    <br>
+    
+    <!-- 进度条 -->
+    <div class="row">
+        <div class="column">
+            <p style="text-align: center;">爆改</p>
+            <div class="progress" style="border-radius: 20px;">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width: 100%; border-radius: 20px;"></div>
+            </div>
+        </div>
+        <div class="column">
+            <p style="text-align: center;">编程</p>
+            <div class="progress" style="border-radius: 20px;">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width: 85%; border-radius: 20px;"></div>
+            </div>
+        </div>
+        <div class="column">
+            <p style="text-align: center;">脑洞</p>
+            <div class="progress" style="border-radius: 20px;">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width: 100%; border-radius: 20px;"></div>
+        </div>
+        </div>
+        <div class="column">
+            <p style="text-align: center;">吃瓜</p>
+            <div class="progress" style="border-radius: 20px;">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width: 100%; border-radius: 20px;"></div>
+    </div>
+</body>
+</html>
